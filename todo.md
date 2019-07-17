@@ -5,7 +5,7 @@ Implement me by ISO/IEC 9899:2017
    - [ ] `assert`
  - 7.3 — Complex arithmetic **<complex.h>**
    - @todo
- - 7.3 — Character handling **<ctype.h>**
+ - 7.4 — Character handling **<ctype.h>**
    - Character classification functions
      - [ ] `isalnum`
      - [ ] `isalpha`
@@ -22,3 +22,56 @@ Implement me by ISO/IEC 9899:2017
    - Character case mapping functions
      - [ ] `tolower`
      - [ ] `toupper`
+ - 7.5 — Errors **<errno.h>**
+   - [ ] EDOM, EILSEQ, ERANGE macros
+   - [ ] errno macros
+ - 7.6 — Floating-point environment **<fenv.h>**
+   - Macro
+     - [ ] fenv_t type
+     - [ ] fexcept_t type
+     - [ ] FE_DIVBYZERO macro
+     - [ ] FE_INEXACT macro
+     - [ ] FE_INVALID macro
+     - [ ] FE_OVERFLOW macro
+     - [ ] FE_UNDERFLOW macro
+     - [ ] FE_ALL_EXCEPT macro
+     - [ ] FE_DOWNWARD macro
+     - [ ] FE_TONEAREST macro
+     - [ ] FE_TOWARDZERO macro
+     - [ ] FE_UPWARD macro
+     - [ ] FE_DFL_ENV macro
+   - Exceptions
+     - [ ] `feclearexcept`
+     - [ ] `fegetexceptflag`
+     - [ ] `feraiseexcept`
+     - [ ] `fesetexceptflag`
+     - [ ] `fetestexcept`
+   - Rounding
+     - [ ] `fegetround`
+     - [ ] `fesetround`
+   - Environment
+     - [ ] `fegetenv`
+     - [ ] `feholdexcept`
+     - [ ] `fesetenv`
+     - [ ] `feupdateenv`
+ - 7.7 — Characteristics of floating types **<float.h>**
+ - 7.8 — Format conversion of integer types **<inttypes.h>**
+   - Macros for format specifiers
+   - Functions for greatest-width integer types
+     - [ ] `imaxabs`
+     - [ ] `imaxdiv`
+     - [ ] `strtoimax`, `strtoumax`
+     - [ ] `wcstoimax`, `wcstoumax`
+ - 7.9 — Alternative spellings **<iso646.h>**
+ - 7.10 — Sizes of integer types **<limits.h>**
+ - 7.11 — Localization **<locale.h>**
+   - [ ] lconv struct
+   - [ ] macro LC_ALL, LC_COLLATE, LC_CTYPE
+   - [ ] macro LC_MONETARY, LC_NUMERIC, LC_TIME
+   - [ ] `setlocale`
+   - [ ] `localeconv`
+
+ ...
+
+ - 7.30
+
