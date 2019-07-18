@@ -72,6 +72,73 @@ Implement me by ISO/IEC 9899:2017
    - [ ] `localeconv`
 
  ...
+ 
+ - 7.21 — Input/output **<stdio.h>**
+   - Types and macros
+     - [ ] FILE type
+     - [ ] fpos_t type
+     - [ ] _IOFBF, _IOLBF, _IONBF macro
+     - [ ] BUFSIZ macro
+     - [ ] EOF macro
+     - [ ] FOPEN_MAX macro
+     - [ ] FILENAME_MAX macro
+     - [ ] L_tmpnam macro
+     - [ ] SEEK_CUR, SEEK_END, SEEK_SET
+     - [ ] TMP_MAX
+   - Operations on files
+     - [ ] `remove`
+     - [ ] `rename`
+     - [ ] `tmpfile`
+     - [ ] `tmpnam`
+   - File access functions
+     - [ ] `fclose`
+     - [ ] `fflush`
+     - [ ] `fopen`
+     - [ ] `freopen`
+     - [ ] `setbuf`
+     - [ ] `setvbuf`
+   - Formatted I/O functions
+     - [ ] `fprintf`
+     - [ ] `fscanf`
+     - [ ] `printf`
+     - [ ] `scanf`
+     - [ ] `snprintf`
+     - [ ] `sprintf`
+     - [ ] `sscanf`
+     - [ ] `vfprintf`
+     - [ ] `vfscanf`
+     - [ ] `vprintf`
+     - [ ] `vscanf`
+     - [ ] `vsnprintf`
+     - [ ] `vsprintf`
+     - [ ] `vsscanf`
+   - Character I/O functions
+     - [ ] `fgetc`
+     - [ ] `fgets`
+     - [ ] `fputc`
+     - [ ] `fputs`
+     - [ ] `getc`
+     - [ ] `getchar`
+     - [ ] `putc`
+     - [ ] `putchar`
+     - [ ] `puts`
+     - [ ] `ungetc`
+   - Direct I/O functions
+     - [ ] `fread`
+     - [ ] `fwrite`
+   - File positioning functions
+     - [ ] `fgetpos`
+     - [ ] `fseek`
+     - [ ] `fsetpos`
+     - [ ] `ftell`
+     - [ ] `rewind`
+   - Error-handling functions
+     - [ ] `clearerr`
+     - [ ] `feof`
+     - [ ] `ferror`
+     - [ ] `perror`
+ 
+ ...
 
  - 7.30
 
